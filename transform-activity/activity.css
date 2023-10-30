@@ -1,3 +1,7 @@
 main {
+    transform: rotate(0.97turn) scale(1.3) translate(-10px, 16%) ;
+}
 
+.info {
+    transform: rotate(0.03turn) skew(0deg, -10deg)
 }

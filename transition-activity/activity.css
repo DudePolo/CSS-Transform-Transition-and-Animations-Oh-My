@@ -1,1 +1,14 @@
+button {
+    border: none;
+    background-color: ghostwhite;
+}
 
+button:hover {
+    animation: colorChange 2s;
+    color: ghostwhite;
+}
+
+@keyframes colorChange {
+    0% { color: black;}
+    100% { color: ghostwhite;}
+}
